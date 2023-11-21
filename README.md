@@ -1,6 +1,10 @@
 # Universal DevKit
 
-A command-line tool designed to streamline the setup process for essential development tools. It simplifies the configuration of popular tools used for code formatting, linting, version control, and many more.
+A command-line tool designed to streamline the setup process for essential
+development tools. It simplifies the configuration of popular tools used for
+code formatting, linting, version control, and many more.
+
+Best for TypeScript based React or Nextjs projects.
 
 ![npm](https://img.shields.io/npm/v/@coderebus/universal-devkit?logo=npm)
 ![NPM](https://img.shields.io/npm/l/%40coderebus%2Funiversal-devkit)
@@ -24,10 +28,13 @@ Badges from [Shields](https://shields.io/)
 
 There are a couple of reasons why should consider using this tool.
 
-1. Setting up development environments, adopting the best tools and practices is a painful and arduous job as you have to go through a ton of documentation and/or you are unsure of what and which tools to include in your project.
+1. Setting up development environments, adopting the best tools and practices is
+   a painful and arduous job as you have to go through a ton of documentation
+   and/or you are unsure of what and which tools to include in your project.
 2. The most obvious problem is the time it takes for the "so called setup".
 
-UDK provides instant setup of your favorite tools, installs the required dependencies, adds the necessary scripts and voila, your setup is ready!
+UDK provides instant setup of your favorite tools, installs the required
+dependencies, adds the necessary scripts and voila, your setup is ready!
 
 ## Available Tools
 
@@ -50,7 +57,7 @@ UDK provides instant setup of your favorite tools, installs the required depende
 Run the below command:
 
 ```bash
-npx @coderebus/universal-devkit
+npx @coderebus/universal-devkit@latest
 ```
 
 You will then be asked the following prompt:
@@ -63,15 +70,22 @@ Choose the setup you want to go with:
 
 ### Express Setup
 
-The Express Setup offers a hassle-free, ready-to-go configuration for essential development tools. It includes a predefined set of popular tools configured with the best industry settings. This setting is recommended for new projects or when you prefer a swift, standardized setup.
+The Express Setup offers a hassle-free, ready-to-go configuration for essential
+development tools. It includes a predefined set of popular tools configured with
+the best industry settings. This setting is recommended for new projects or when
+you prefer a swift, standardized setup.
 
 ### Custom Setup
 
-Custom Setup provides flexibility, allowing you to cherry-pick specific tools based on your project's requirements. It's ideal for existing projects or when you prefer selecting individual tools and configuring them according to your needs.
+Custom Setup provides flexibility, allowing you to cherry-pick specific tools
+based on your project's requirements. It's ideal for existing projects or when
+you prefer selecting individual tools and configuring them according to your
+needs.
 
 ### Scripts
 
-The scripts can be used with your favorite package managers (npm, yarn and pnpm). Here are the scripts available for you to use:
+The scripts can be used with your favorite package managers (npm, yarn and
+pnpm). Here are the scripts available for you to use:
 
 1. Code Formatting
 
@@ -115,16 +129,24 @@ The scripts can be used with your favorite package managers (npm, yarn and pnpm)
 
 ### Few Things To Keep In Mind
 
-1. If you choose a tool and that tool is already configured in your project, then it may get overwritten with the new configuration. You will see this warning when you use this tool.
-2. In express setup, the code formatting (`eslint`, `prettier`, `stylelint`) is automated with the help of `lint-staged` and `husky` when you commit your code.
+1. If you choose a tool and that tool is already configured in your project,
+   then it may get overwritten with the new configuration. You will see this
+   warning when you use this tool.
+2. In express setup, the code formatting (`eslint`, `prettier`, `stylelint`) is
+   automated with the help of `lint-staged` and `husky` when you commit your
+   code.
+3. `eslint` setup is
 
 ## Contributors
 
-I would appreciate a ton of feedback and help at the same time to improve on existing limitations and ofcourse, to add more to this.
+I would appreciate a ton of feedback and help at the same time to improve on
+existing limitations and ofcourse, to add more to this.
 
 ## Third-party Tools
 
 Special mention to the third-party tools that I have used to build the cli:
 
-1. [Clack](https://www.npmjs.com/package/@clack/prompts) - helped me build the beautiful cli interface easily.
-2. [ShellArtist](https://www.npmjs.com/package/shell-artist) - helped me create UDK ASCII Art and write other beautiful logs easily.
+1. [Clack](https://www.npmjs.com/package/@clack/prompts) - helped me build the
+   beautiful cli interface easily.
+2. [ShellArtist](https://www.npmjs.com/package/shell-artist) - helped me create
+   UDK ASCII Art and write other beautiful logs easily.

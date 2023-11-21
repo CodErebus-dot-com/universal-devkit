@@ -1,7 +1,2 @@
-!.*
-**/expected-output
-**/templates
-**/test-output
-/.turbo/
-/dist/
-/node_modules/
+**/node_modules/*
+**/dist/*

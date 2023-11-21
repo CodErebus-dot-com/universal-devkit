@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "sourceMap": false,
     "module": "NodeNext",
-    "outDir": "dist",
+    "outDir": "./dist/bin",
     "rootDir": "bin",
     "baseUrl": ".",
     /* Paths */
@@ -29,5 +29,5 @@
     "alwaysStrict": true
   },
   "exclude": ["**/*.spec.ts", "**/*.test.ts", "node_modules"],
-  "include": ["bin"]
+  "include": ["bin/**/*.ts"]
 }
