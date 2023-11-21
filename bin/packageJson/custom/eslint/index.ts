@@ -1,6 +1,6 @@
 export const packageJson = [
   {
-    dependencies: {
+    devDependencies: {
       eslint: '{latest}',
       'eslint-plugin-react': '{latest}',
       'eslint-plugin-react-hooks': '{latest}',
@@ -14,4 +14,4 @@ export const packageJson = [
         'eslint . --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0 --fix',
     },
   },
-];
+]

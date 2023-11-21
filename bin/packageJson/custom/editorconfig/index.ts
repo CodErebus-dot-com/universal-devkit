@@ -1,1 +1,1 @@
-export const packageJson = [];
+export const packageJson = []

@@ -1,6 +1,6 @@
 export const packageJson = [
   {
-    dependencies: {
+    devDependencies: {
       stylelint: '{latest}',
       'stylelint-config-standard': '{latest}',
     },
@@ -8,4 +8,4 @@ export const packageJson = [
       'lint-css': "stylelint '**/*.{css,scss}'",
     },
   },
-];
+]

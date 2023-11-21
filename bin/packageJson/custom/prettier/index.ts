@@ -1,10 +1,11 @@
 export const packageJson = [
   {
-    dependencies: {
+    devDependencies: {
       prettier: '{latest}',
     },
     scripts: {
-      prettify: 'prettier --ignore-path .gitignore --write "**/*.(js|jsx|ts|tsx)"',
+      prettify:
+        'prettier --ignore-path .gitignore --write "**/*.(js|jsx|ts|tsx)"',
     },
   },
-];
+]

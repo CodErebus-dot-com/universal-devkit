@@ -1,10 +1,10 @@
 export const packageJson = [
   {
-    dependencies: {
+    devDependencies: {
       husky: '{latest}',
     },
     scripts: {
       prepare: 'husky install',
     },
   },
-];
+]

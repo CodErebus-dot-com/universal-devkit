@@ -49,7 +49,7 @@ export const configOptions = {
   //   { value: 'netlify', label: 'Netlify' },
   //   { value: 'vercel', label: 'Vercel' },
   // ],
-};
+}
 
 export const presetOptions = [
   {
@@ -62,4 +62,4 @@ export const presetOptions = [
     label: 'Custom Setup',
     hint: 'Customizable setup with only the necessary boilerplate will be provided.',
   },
-];
+]

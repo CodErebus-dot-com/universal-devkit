@@ -8,9 +8,9 @@ export const packageJson = [
     scripts: {
       commit: 'cz',
     },
-    dependencies: {
+    devDependencies: {
       '@commitlint/cz-commitlint': '{latest}',
       commitizen: '{latest}',
     },
   },
-];
+]

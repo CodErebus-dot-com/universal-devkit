@@ -1,8 +1,8 @@
 export const packageJson = [
   {
-    dependencies: {
+    devDependencies: {
       '@commitlint/config-conventional': '{latest}',
       '@commitlint/cli': '{latest}',
     },
   },
-];
+]

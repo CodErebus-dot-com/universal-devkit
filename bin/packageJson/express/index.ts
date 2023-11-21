@@ -1,6 +1,6 @@
 export const packageJson = [
   {
-    dependencies: {
+    devDependencies: {
       '@commitlint/config-conventional': '{latest}',
       '@commitlint/cli': '{latest}',
       eslint: '{latest}',
@@ -23,7 +23,8 @@ export const packageJson = [
         'eslint . --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0 --fix',
       'lint-css': "stylelint '**/*.{css,scss}' --fix",
       'check-types': 'tsc --noEmit',
-      prettify: 'prettier --ignore-path .gitignore --write "**/*.(js|jsx|ts|tsx)"',
+      prettify:
+        'prettier --ignore-path .gitignore --write "**/*.(js|jsx|ts|tsx)"',
       format: 'npm run lint:fix && npm run lint-css && npm run prettify',
       prepare: 'husky install',
       commit: 'cz',
@@ -46,4 +47,4 @@ export const packageJson = [
       },
     },
   },
-];
+]
