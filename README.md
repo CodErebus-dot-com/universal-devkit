@@ -7,8 +7,8 @@ code formatting, linting, version control, and many more.
 Best for TypeScript based React or Nextjs projects.
 
 ![npm](https://img.shields.io/npm/v/universal-devkit?logo=npm)
-![NPM](https://img.shields.io/npm/l/%universal-devkit)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/%Funiversal-devkit)
+![NPM](https://img.shields.io/npm/l/universal-devkit)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/universal-devkit)
 
 Badges from [Shields](https://shields.io/)
 

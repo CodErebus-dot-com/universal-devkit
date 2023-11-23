@@ -44,6 +44,7 @@ module.exports = {
           },
         ],
         '@typescript-eslint/ban-ts-comment': 'warn',
+				'no-mixed-spaces-and-tabs': 'off',
       },
     },
   ],
