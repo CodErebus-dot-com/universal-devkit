@@ -1,2 +1,2 @@
-declare module 'picocolors'
-declare module '@npmcli/package-json'
+declare module 'picocolors';
+declare module '@npmcli/package-json';

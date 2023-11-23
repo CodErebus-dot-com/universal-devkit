@@ -6,9 +6,9 @@ code formatting, linting, version control, and many more.
 
 Best for TypeScript based React or Nextjs projects.
 
-![npm](https://img.shields.io/npm/v/@coderebus/universal-devkit?logo=npm)
-![NPM](https://img.shields.io/npm/l/%40coderebus%2Funiversal-devkit)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40coderebus%2Funiversal-devkit)
+![npm](https://img.shields.io/npm/v/universal-devkit?logo=npm)
+![NPM](https://img.shields.io/npm/l/%universal-devkit)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/%Funiversal-devkit)
 
 Badges from [Shields](https://shields.io/)
 
@@ -57,7 +57,7 @@ dependencies, adds the necessary scripts and voila, your setup is ready!
 Run the below command:
 
 ```bash
-npx @coderebus/universal-devkit@latest
+npx universal-devkit@latest
 ```
 
 You will then be asked the following prompt:
