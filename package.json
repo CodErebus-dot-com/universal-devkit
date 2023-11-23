@@ -67,8 +67,8 @@
 		"cz-conventional-changelog": "3.3.0",
 		"eslint": "8.54.0",
 		"husky": "8.0.3",
-		"lint-staged": "15.1.0",
 		"jest": "^29.5.0",
+		"lint-staged": "15.1.0",
 		"prettier": "3.1.0",
 		"rimraf": "^5.0.5",
 		"stylelint": "15.11.0",
@@ -81,7 +81,7 @@
 		"@clack/prompts": "^0.7.0",
 		"@code-shaper/shaper-utils": "*",
 		"@npmcli/package-json": "^5.0.0",
-		"shell-artist": "2.7.0"
+		"shell-artist": "^2.7.0"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
