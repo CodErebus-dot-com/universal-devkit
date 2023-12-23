@@ -1,7 +1,7 @@
 {
 	"name": "universal-devkit",
 	"description": "A cli tool to setup development tools",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"keywords": [
 		"universal",
@@ -50,7 +50,7 @@
 		"prettify": "prettier --ignore-path .gitignore --write \"**/*.(js|jsx|ts|tsx)\"",
 		"format": "npm run lint:fix && npm run prettify",
 		"commit": "cz",
-		"prepare": "husky install"
+		"prepare": "[ -d '.git' ] && husky install || echo 'skipping husky'"
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.23.2",
