@@ -15,6 +15,8 @@ import {
 	fetchFromPackageJson,
 	execTransformFiles,
 	CONFIG_OPTIONS,
+	isGitInitialized,
+	initializeGitRepo,
 } from './utils/index.js';
 import PackageJson from '@npmcli/package-json';
 
@@ -60,6 +62,7 @@ async function main(): Promise<void> {
 
 	const { configType, initType, isConfirm } = project;
 	if (isConfirm) {
+		!isGitInitialized() && (await initializeGitRepo());
 		if (initType === 'custom') {
 			(configType as string[]).map(c => {
 				const srcPath = path.join(TEMPLATES_DIR, initType, c as string);
