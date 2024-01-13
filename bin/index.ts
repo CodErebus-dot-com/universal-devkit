@@ -10,6 +10,8 @@ import {
 	presetOptions,
 	ROOT_DIR,
 	TEMPLATES_DIR,
+	PACKAGE_JSON,
+	isEmptyDir,
 	install,
 	updatePackageJson,
 	fetchFromPackageJson,
@@ -21,6 +23,21 @@ import {
 import PackageJson from '@npmcli/package-json';
 
 async function main(): Promise<void> {
+	if (isEmptyDir()) {
+		p.outro(
+			color.red(
+				`${emoji.get(
+					'no_entry',
+				)} This directory is empty. Create an app and try again...`,
+			),
+		);
+		process.exit(1);
+	}
+	if (!FileUtils.fileExists(PACKAGE_JSON)) {
+		p.outro(color.red(`${emoji.get('no_entry')} No package.json found!`));
+		process.exit(1);
+	}
+
 	renderTitle();
 
 	p.note(

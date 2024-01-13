@@ -136,7 +136,8 @@ pnpm). Here are the scripts available for you to use:
 2. In express setup, the code formatting (`eslint`, `prettier`, `stylelint`) is
    automated with the help of `lint-staged` and `husky` when you commit your
    code.
-3. `eslint` setup is
+3. `eslint` setup is very web development (React) and TypeScript specific.
+   Support for nodejs based tools will be added soon.
 
 ## Contributors
 
